@@ -1,0 +1,37 @@
+{
+  "name": "nodejs-socketio-chat-app",
+  "version": "1.0.0",
+  "description": "Chat Application built using Node.js, Express, MongoDB, Socket.io.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+
+  "keywords": [
+    "nodejs",
+    "expressjs",
+    "mongodb",
+    "socket.io",
+    "real-time",
+    "chat-app"
+  ],
+  "author": "SudeepRathod",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "latest",
+    "connect-mongo": "latest",
+    "cookie-parser": "latest",
+    "crypto": "latest",
+    "ejs": "latest",
+    "express": "latest",
+    "express-session": "latest",
+    "fs": "latest",
+    "lodash": "latest",
+    "method-override": "latest",
+    "mongoose": "latest",
+    "morgan": "latest",
+    "path": "latest",
+    "shortid": "latest",
+    "socket.io": "latest"
+  }
+}
