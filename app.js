@@ -20,7 +20,7 @@ require('./libs/chat.js').sockets(http);
 app.use(logger('dev'));
 
 //db connection
-var dbPath = "mongodb://localhost/socketChatDB";
+var dbPath = "mongodb://sudeep:sudeep100@socketchat-shard-00-00-7lunt.mongodb.net:27017,socketchat-shard-00-01-7lunt.mongodb.net:27017,socketchat-shard-00-02-7lunt.mongodb.net:27017/socketchat?ssl=true&replicaSet=socketchat-shard-0&authSource=admin";
 mongoose.connect(dbPath);
 mongoose.connection.once('open',function(){
   console.log("Database Connection Established Successfully.");
